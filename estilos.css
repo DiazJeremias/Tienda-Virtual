@@ -1,0 +1,132 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #f4f4f4;
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 24, 204, 1) 0%,
+    rgba(20, 245, 231, 1) 0%,
+    rgba(255, 145, 240, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  padding: 0.3rem;
+}
+
+header {
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+  }
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+.container-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.precio {
+  color: #0078d7;
+  font-weight: bold;
+}
+
+.container-resenas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.resena {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contacto {
+  form {
+    max-width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contacto {
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+}
+
+.contacto input,
+.contacto textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contacto button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 4px;
+}
+
+.contacto button:hover {
+  background: #005bb5;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="estilos.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap"
+          rel="stylesheet">
+     <title>Pre Entrega</title>
+</head>
+
+<body>
+     <header>
+          <h1>Tienda Virtual</h1>
+          <nav>
+               <ul>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#resenas">Reseñas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+               </ul>
+          </nav>
+     </header>
+
+     <main>
+          <section id="productos">
+               <h2>Productos disponibles</h2>
+               <div class="container-productos">
+                    <div class="card">
+                         <img src="img/ps5.jpg" alt="Producto 1">
+                         <h3>Nombre del producto</h3>
+                         <p>Descripción</p>
+                         <p class="precio">$xxx</p>
+                    </div>
+                    <div class="card">
+                         <img src="img/celular.jpg" alt="Producto 1">
+                         <h3>Nombre del producto</h3>
+                         <p>Descripción</p>
+                         <p class="precio">$xxx</p>
+                    </div>
+                    <div class="card">
+                         <img src="img/monitor.jpg" alt="Producto 1">
+                         <h3>Nombre del producto</h3>
+                         <p>Descripción</p>
+                         <p class="precio">$xxx</p>
+                    </div>
+               </div>
+          </section>
+
+          <section id="resenas">
+               <h2>Chequea algunas opiniones de nuestros clientes!</h2>
+               <div class="container-resenas">
+                    <div class="resena">Lorem ipsum dolor sit amet.</div>
+                    <div class="resena">Lorem ipsum dolor sit amet.</div>
+                    <div class="resena">Lorem ipsum dolor sit amet.</div>
+               </div>
+          </section>
+
+          <section id="contacto" class="contacto">
+               <form action="" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="ejemplo@mimail.com" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" rows="10" placeholder="Escribe tu mensaje"
+                         required></textarea>
+                    <button type="submit">Enviar</button>
+               </form>
+          </section>
+     </main>
+
+     <footer>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </footer>
+</body>
+
+</html>
